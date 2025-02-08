@@ -4,5 +4,29 @@
     box-sizing: border-box;
 }
 body{
-    
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+}
+.Menu{
+    display: flex;
+}
+.Menu li{
+    margin-left: 10px;
+}
+.Menu li a{
+    display: block;
+    padding: 20px;
 }
